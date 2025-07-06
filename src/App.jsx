@@ -1,27 +1,19 @@
-import './App.css'
-import AboutSection from './componets/AboutSection'
-import CertificationsSection from './componets/CertificationsSection'
-import FooterSection from './componets/FooterSection'
-import Hero from './componets/Hero'
-import HighlightsSection from './componets/HighlightsSection'
-import InquiryFormSection from './componets/InquiryFormSection'
-import PartnerWithUsSection from './componets/PartnerWithUsSection'
-import ProductsSection from './componets/ProductsSection'
-import WhyChooseUsSection from './componets/WhyChooseUsSection'
+import { Route, Routes } from 'react-router-dom'; // ✅ Remove BrowserRouter
+import AboutUsPage from './AboutUsPage';
+import InquiryFormSection from './componets/InquiryFormSection';
+import ProductsSection from './componets/ProductsSection';
+import Home from './Home';
+
+
 function App() {
   return (
-    <>
-      <Hero/>
-      <HighlightsSection/>
-      <AboutSection/>
-      <ProductsSection/>
-      <CertificationsSection/>
-      <WhyChooseUsSection/>
-      <PartnerWithUsSection/>
-      <InquiryFormSection/>
-      <FooterSection/>
-    </>
-  )
+    <Routes>
+      <Route path="/" exact Component={Home} />
+      <Route path="/AboutUs" exact Component={AboutUsPage} />
+      <Route path="/products" exact Component={ProductsSection} />
+      <Route path="/Contact" exact Component={InquiryFormSection} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;

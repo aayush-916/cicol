@@ -56,7 +56,7 @@ const FooterSection = () => {
 
           <div className="flex items-center gap-3">
             <Send className="w-5 h-5 text-blue-400" />
-            <a href="#inquiry-form" className="hover:underline cwhite">
+            <a href="#contact" className="hover:underline cwhite">
               Inquiry Form
             </a>
           </div>

@@ -26,7 +26,7 @@ const benefits = [
 
 const PartnerWithUsSection = () => {
   return (
-    <section className="bg-gradient-to-br from-white via-blue-50 to-purple-100 py-20 px-4 sm:px-10 lg:px-20">
+    <section className="bg-gradient-to-br from-white via-blue-50 to-purple-100 py-20 px-4 sm:px-10 lg:px-20 overflow-hidden">
       <div className="max-w-7xl mx-auto space-y-16 text-center">
         {/* Heading */}
         <motion.h2
@@ -83,7 +83,7 @@ const PartnerWithUsSection = () => {
         {/* CTA Buttons */}
         <div className="flex flex-wrap justify-center gap-6 pt-6">
           <motion.a
-            href="#partner-form"
+            href="#contact"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}

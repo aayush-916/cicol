@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const InquiryFormSection = () => {
   return (
-    <div className="cen" id="inquiry-form">
+    <div className="cen" id="contact">
 
     
     <section className="md:w-[1000px] bg-white py-20 px-4 sm:px-10 lg:px-20">

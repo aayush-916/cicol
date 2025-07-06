@@ -34,7 +34,7 @@ const products = [
 
 const ProductsSection = () => {
   return (
-    <section className="bg-gradient-to-br from-white via-blue-50 to-purple-100 py-20 px-4 sm:px-10 lg:px-20">
+    <section className="bg-gradient-to-br from-white via-blue-50 to-purple-100 py-20 px-4 sm:px-10 lg:px-20" id="products">
       <div className="max-w-7xl mx-auto text-center space-y-12">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
