@@ -11,16 +11,16 @@ import {
 } from "lucide-react";
 
 const invited = [
-  { icon: <UserPlus className="w-6 h-6 text-blue-600" />, text: "Doctors who want their own branded medicines" },
+  { icon: <UserPlus className="w-6 h-6 text-blue-600" />, text: "Doctor who want to prescribe our medicine" },
   { icon: <Briefcase className="w-6 h-6 text-green-600" />, text: "Chemists who want fast-selling products" },
   { icon: <Map className="w-6 h-6 text-orange-500" />, text: "Stockists interested in district-level supply rights" },
-  { icon: <Flower2 className="w-6 h-6 text-purple-600" />, text: "Healthcare entrepreneurs in Herbal/FMCG" },
+  { icon: <Flower2 className="w-6 h-6 text-purple-600" />, text: "Healthcare entrepreneurs in Herbal , Allopathic and FMCG" },
 ];
 
 const benefits = [
-  { icon: <Tag className="w-6 h-6 text-blue-600" />, text: "Private branding" },
-  { icon: <BadgePercent className="w-6 h-6 text-green-600" />, text: "Margins & MOQs tailored to you" },
-  { icon: <Truck className="w-6 h-6 text-orange-500" />, text: "Logistics & supply from Nashik warehouse" },
+  { icon: <Tag className="w-6 h-6 text-blue-600" />, text: "Sourced from Certified Manufacturers" },
+  { icon: <BadgePercent className="w-6 h-6 text-green-600" />, text: "Affordable Pricing" },
+  { icon: <Truck className="w-6 h-6 text-orange-500" />, text: "Ready-to-Sell Products" },
   { icon: <Megaphone className="w-6 h-6 text-purple-600" />, text: "Promotional help for product push" },
 ];
 

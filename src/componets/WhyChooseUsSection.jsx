@@ -27,14 +27,10 @@ const reasons = [
   },
   {
     icon: <Leaf className="w-7 h-7 text-emerald-600" />,
-    title: "Herbal + FMCG Expansion",
+    title: "Herbal and FMCG Expansion",
     description: "New verticals launching to offer more growth and wellness options.",
   },
-  {
-    icon: <Paintbrush className="w-7 h-7 text-purple-600" />,
-    title: "White-Label Branding",
-    description: "Offer private label packaging and custom pharma branding.",
-  },
+
   {
     icon: <Warehouse className="w-7 h-7 text-gray-700" />,
     title: "Central Warehousing",
