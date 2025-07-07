@@ -74,6 +74,28 @@ const AboutUsPage = () => {
             </p>
           </motion.div>
         </div>
+        {/* Directors Section */}
+        <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+  className="bg-gray-100 p-6 rounded-2xl shadow mt20"
+>
+  <h3 className="text-xl font-semibold text-gray-800 mb10 text-center">
+    Our Leadership
+  </h3>
+  <p className="text-gray-700 text-[15px] leading-relaxed text-center">
+    <strong>Mr. R K Dubey</strong> and <strong>Ms. Jyoti Kumari</strong>, the visionary directors of CICOL INDIA PRIVATE LIMITED,
+    bring a wealth of expertise and commitment to the organization. Their leadership drives our mission to deliver
+    accessible, high-quality pharmaceutical and wellness solutions across India.
+    <br /><br />
+    With a strong focus on ethical business practices, innovation, and partner-driven growth, they ensure that CICOL
+    operates with integrity, efficiency, and a clear vision for the future of healthcare distribution.
+  </p>
+</motion.div>
+
+
       </div>
     </div>
   );

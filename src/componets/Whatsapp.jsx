@@ -5,7 +5,7 @@ function Whatsapp() {
    <>
     <div class="fixed-bottom-right2">
         <a
-          href="tel:+91"
+          href="tel:+917643011913"
           target="_blank"
           rel="noopener noreferrer"
           class="whatsapp-button"
@@ -15,7 +15,7 @@ function Whatsapp() {
       </div>
       <div class="fixed-bottom-right">
         <a
-          href="https://wa.me/+91"
+          href="https://wa.me/+917643011913"
           target="_blank"
           rel="noopener noreferrer"
           class="whatsapp-button"

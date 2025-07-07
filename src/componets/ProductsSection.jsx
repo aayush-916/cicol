@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Pill, HeartPulse, Leaf, ShoppingBag } from "lucide-react";
+import { Pill, HeartPulse, Package, ShoppingBag } from "lucide-react";
 
 const products = [
   {
@@ -17,14 +17,14 @@ const products = [
     description: "Liver health supplement for detox and digestion.",
   },
   {
-    name: "Herbal Products (Nov 2025)",
-    category: "Herbal Wellness",
+    name: "Allopathic Products",
+    category: "Pharmaceutical",
     mrp: "Coming Soon",
-    icon: <Leaf className="w-8 h-8 text-emerald-600" />,
-    description: "Natural formulations to support immunity and wellness.",
+    icon: <Package className="w-8 h-8 text-blue-600" />,
+    description: "Doctor-recommended allopathic medicines like multivitamins and liver care tablets launching soon.",
   },
   {
-    name: "FMCG Range (Nov 2025)",
+    name: "FMCG Range",
     category: "Health & Daily Use",
     mrp: "Coming Soon",
     icon: <ShoppingBag className="w-8 h-8 text-purple-600" />,
@@ -57,7 +57,7 @@ const ProductsSection = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <div className="flex justify-center mb10">{product.icon}</div>
-              <h3 className="text-lg font-semibold text-gray-800">{product.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-800 text-center">{product.name}</h3>
               <p className="text-sm text-gray-500 mb-1">{product.category}</p>
               <p className="text-sm font-medium text-blue-600 mb-2">{product.mrp}</p>
               <p className="text-gray-600 text-[15px] leading-relaxed">{product.description}</p>

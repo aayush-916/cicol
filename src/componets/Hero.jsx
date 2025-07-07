@@ -49,11 +49,11 @@ const Hero = () => {
           className="flex-1"
         >
           <img
-            src="/herbal-remedies.jpg"
+            src="/herbal1.jpg"
             alt="Pharma Illustration"
             className="
     w-full
-    max-w-[460px]
+    max-w-[490px]
     aspect-[4/3]
     object-cover
     mx-auto

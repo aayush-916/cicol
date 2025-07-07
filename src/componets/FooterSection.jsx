@@ -14,31 +14,45 @@ const FooterSection = () => {
           className="space-y-6"
         >
           <h2 className="text-2xl font-bold">📞 Contact Us</h2>
+          <p className="mt10"><strong>Directors:</strong> R K Dubey, Jyoti Kumari</p>
 
+
+          <p className="mt10">Main office address : </p>
           <div className="flex items-start gap-3">
             <MapPin className="w-5 h-5 text-blue-400 mt-1" />
             <p>
               <strong>CICOL INDIA PRIVATE LIMITED</strong><br />
-              Plot No-1366, Gandhi Ghat Road, Nai Sarai, Ramgarh Cantt – Jharkhand – 829122
+              Murlidhar Ramchandra Raut, HNO 44488,Laxmi Nagar, Ojhar, Niphad, Nashik -422206,Maharashtra
             </p>
+            
           </div>
 
+          <p className="mt10">Branch office address : </p>
           <div className="flex items-start gap-3">
+            <MapPin className="w-5 h-5 text-blue-400 mt-1" />
+            <p>
+            Plot No-1366, Gandhi Ghat Road, Nai Sarai, Ramgarh Cantt – Jharkhand – 829122
+            </p>
+            
+          </div>
+          <div className="flex items-start gap-3 mt20">
             <Warehouse className="w-5 h-5 text-green-400 mt-1" />
-            <p>Head Warehouse: Nashik, Maharashtra</p>
+            <p>Warehouse: Nashik, Maharashtra</p>
           </div>
+          <p className="mt10">CIN: U46497PN2025PTC241057</p>
 
-          <div className="flex items-start gap-3">
+
+          <div className="flex items-start gap-3 mt10">
             <Phone className="w-5 h-5 text-yellow-400 mt-1" />
-            <p>+91-XXXXXXXXXX (Phone & WhatsApp)</p>
+            <p>+91 7643011913</p>
           </div>
 
-          <div className="flex items-start gap-3">
+          <div className="flex items-start gap-3 mt10">
             <Mail className="w-5 h-5 text-red-400 mt-1" />
-            <p>info@cicolindia.com</p>
+            <p>cicolindiapvtltd@gmail.com</p>
           </div>
 
-          <div className="flex items-start gap-3">
+          <div className="flex items-start gap-3 mt10">
             <Clock className="w-5 h-5 text-purple-400 mt-1" />
             <p>Mon–Sat | 9:30 AM – 6:30 PM</p>
           </div>
@@ -54,17 +68,17 @@ const FooterSection = () => {
         >
           <h2 className="text-2xl font-bold">💬 Quick Access</h2>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 mt10">
             <Send className="w-5 h-5 text-blue-400" />
             <a href="#contact" className="hover:underline cwhite">
               Inquiry Form
             </a>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 mt10">
             <MessageCircle className="w-5 h-5 text-green-400" />
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/917643011913"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline cwhite"

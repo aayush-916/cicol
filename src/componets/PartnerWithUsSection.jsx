@@ -93,7 +93,7 @@ const PartnerWithUsSection = () => {
             Become a Partner
           </motion.a>
           <motion.a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/917643011913"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}

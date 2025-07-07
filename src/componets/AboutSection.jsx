@@ -38,7 +38,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="/aboutpic1.jpg" // Replace with actual image
+            src="/aboutpic2.jpg" // Replace with actual image
             alt="About CICOL"
             className="w-full max-w-[480px] aspect-[4/3] object-cover mx-auto rounded-2xl shadow-lg"
           />

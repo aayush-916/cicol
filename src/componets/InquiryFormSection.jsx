@@ -15,7 +15,7 @@ const InquiryFormSection = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold text-gray-800 mb20"
         >
-          📌 Franchise / Inquiry Form
+          📌Inquiry Form
         </motion.h2>
 
         {/* Form */}

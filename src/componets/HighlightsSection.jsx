@@ -12,7 +12,7 @@ const bulletPoints = [
   },
   {
     icon: <Leaf className="w-6 h-6 text-emerald-600" />,
-    text: "Herbal & FMCG Launching Soon",
+    text: "Allopathic & FMCG Launching Soon",
   },
   {
     icon: <Truck className="w-6 h-6 text-orange-500" />,
