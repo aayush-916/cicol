@@ -22,7 +22,7 @@ const reasons = [
   },
   {
     icon: <Package className="w-7 h-7 text-orange-600" />,
-    title: "Market-Ready Allopathic Medicines",
+    title: "Market-Ready Herbal Medicines",
     description: "Fully packaged and compliant products ready for immediate distribution.",
   },
   {

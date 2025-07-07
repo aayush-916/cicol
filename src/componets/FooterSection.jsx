@@ -16,7 +16,7 @@ const FooterSection = () => {
           <h2 className="text-2xl font-bold">📞 Contact Us</h2>
 
 
-          <p className="mt10">Main office address : </p>
+          <p className="mt10">Registered office address : </p>
           <div className="flex items-start gap-3">
             <MapPin className="w-5 h-5 text-blue-400 mt-1" />
             <p>

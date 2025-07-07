@@ -4,7 +4,7 @@ import { BadgeCheck, Boxes, Leaf, Truck, Building2, Tag } from "lucide-react";
 const bulletPoints = [
   {
     icon: <BadgeCheck className="w-6 h-6 text-green-600" />,
-    text: "Doctor-Prescribed Allopathic Products",
+    text: "Doctor-Prescribed Herbal and Allopathic Products",
   },
   {
     icon: <Boxes className="w-6 h-6 text-blue-600" />,
