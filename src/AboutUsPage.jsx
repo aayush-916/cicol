@@ -25,11 +25,10 @@ const AboutUsPage = () => {
           CICOL INDIA PRIVATE LIMITED is a professionally registered pharmaceutical marketing company
           focused on reshaping India’s healthcare distribution system through a doctor-patient-driven
           approach and district-level stockist models. Our core offerings include a range of high-quality,
-          doctor-recommended allopathic products like multivitamin capsules and liver care tablets.
+          doctor-recommended Herbal products like multivitamin capsules and liver care tablets.
           <br /><br />
-          With the upcoming launch of our Herbal and FMCG verticals in November 2025, we are committed to
-          providing affordable wellness solutions that combine tradition and innovation. Backed by a central
-          warehouse in Nashik, Maharashtra, and supported by regional centers like Ramgarh (Jharkhand), CICOL
+          With the upcoming launch of our Allopathic and FMCG verticals in November 2025, we are committed to
+          providing affordable wellness solutions that combine tradition and innovation. Backed by our Registered office in Nashik, Maharashtra, and supported by regional centers like Ramgarh (Jharkhand), CICOL
           ensures fast, region-specific logistics.
           <br /><br />
           We empower doctors, chemists, and distributors with custom white-label branding, seamless supply

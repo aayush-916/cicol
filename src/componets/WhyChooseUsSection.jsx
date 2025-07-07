@@ -27,7 +27,7 @@ const reasons = [
   },
   {
     icon: <Leaf className="w-7 h-7 text-emerald-600" />,
-    title: "Herbal and FMCG Expansion",
+    title: "Allopathic and FMCG Expansion",
     description: "New verticals launching to offer more growth and wellness options.",
   },
 

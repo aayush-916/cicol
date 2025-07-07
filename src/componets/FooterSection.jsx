@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Warehouse, Phone, Mail, Clock, Send, MessageCircle } from "lucide-react";
+import { MapPin, Warehouse, Phone, Mail, Clock, Send, MessageCircle, Globe } from "lucide-react";
 
 const FooterSection = () => {
   return (
@@ -14,7 +14,6 @@ const FooterSection = () => {
           className="space-y-6"
         >
           <h2 className="text-2xl font-bold">📞 Contact Us</h2>
-          <p className="mt10"><strong>Directors:</strong> R K Dubey, Jyoti Kumari</p>
 
 
           <p className="mt10">Main office address : </p>
@@ -46,7 +45,10 @@ const FooterSection = () => {
             <Phone className="w-5 h-5 text-yellow-400 mt-1" />
             <p>+91 7643011913</p>
           </div>
-
+          <div className="flex items-start gap-3 mt10">
+            <Globe className="w-5 h-5 text-purple-400 mt-1" />
+            <p> Website-www.cicolindia.com</p>
+          </div>
           <div className="flex items-start gap-3 mt10">
             <Mail className="w-5 h-5 text-red-400 mt-1" />
             <p>cicolindiapvtltd@gmail.com</p>
