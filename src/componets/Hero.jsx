@@ -12,9 +12,9 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-5xl font-bold text-gray-900 leading-snug"
           >
-            Bringing Quality Allopathic & Herbal Formulations <br />
+            Providing authentic quality allopathic, Herbal medicine <br />
             <span className="text-blue-600">
-              to Doctors, Retailers & Stockists Across India
+            and FMCG goods across India and world
             </span>
           </motion.h1>
 
@@ -49,18 +49,20 @@ const Hero = () => {
           className="flex-1"
         >
           <img
-            src="/herbal1.jpg"
-            alt="Pharma Illustration"
-            className="
+  src="/frontimg.jpg"
+  alt="Pharma Illustration"
+  className="
     w-full
-    max-w-[490px]
-    aspect-[4/3]
-    object-cover
+    max-w-[420px]
+    h-auto
     mx-auto
     rounded-2xl
     shadow-lg
+    object-contain
+    mii
   "
-          />
+/>
+
         </motion.div>
       </div>
     </div>

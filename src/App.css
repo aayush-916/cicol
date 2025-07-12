@@ -248,3 +248,9 @@ display: flex;
 .cwhite{
   color: white !important;
 }
+
+@media (min-width: 1024px) {
+  .mii{
+    margin-left: 60px;
+  }
+}
