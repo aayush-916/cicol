@@ -12,9 +12,9 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-5xl font-bold text-gray-900 leading-snug"
           >
-            Providing authentic quality allopathic, Herbal medicine <br />
+            Providing the world class authentic Allopathic & Herbal medicine <br />
             <span className="text-blue-600">
-            and FMCG goods across India and world
+            and FMCG across India and in the world
             </span>
           </motion.h1>
 
