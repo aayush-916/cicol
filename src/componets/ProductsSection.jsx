@@ -17,6 +17,13 @@ const products = [
     description: "Liver health supplement for detox and digestion.",
   },
   {
+    name: "Cico-ZYME Tablets",
+    category: "Digestive health",
+    mrp: "₹210",
+    icon: <img src="/pic4.png" className="w-[200px] h-[150px] text-green-600" />,
+    description: "Indication-for indigestion and helps in improving digestive health",
+  },
+  {
     name: "Allopathic Products",
     category: "Pharmaceutical",
     mrp: "Coming Soon",

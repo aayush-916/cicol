@@ -8,6 +8,7 @@ const certifications = [
   "PAN & TAN Available",
   "WHO-GMP Partners for Manufacturing",
   "Documents available on request for partners",
+  "ISO 9001 :  2015 Quality Management Systems",
 ];
 
 const CertificationsSection = () => {
