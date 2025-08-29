@@ -99,7 +99,7 @@ const AboutUsPage = () => {
     <strong>Personal Email ID:</strong> <a href="mailto:ravikantdubey8541@gmail.com" className="text-blue-600 underline">ravikantdubey8541@gmail.com</a>
   </p>
   <p className="text-gray-700 text-[15px]">
-    <strong>Mobile:</strong> <a href="tel:6207921325" className="text-blue-600 underline">6207921325</a>
+    <strong>Mobile:</strong> <a href="tel:+916207921325" className="text-blue-600 underline">+916207921325</a>
   </p>
 </div>
 
