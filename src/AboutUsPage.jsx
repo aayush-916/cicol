@@ -94,14 +94,7 @@ const AboutUsPage = () => {
   operates with integrity, efficiency, and a clear vision for the future of healthcare distribution.
 </p>
 
-<div className="text-center mt-4">
-  <p className="text-gray-700 text-[15px]">
-    <strong>Personal Email ID:</strong> <a href="mailto:ravikantdubey8541@gmail.com" className="text-blue-600 underline">ravikantdubey8541@gmail.com</a>
-  </p>
-  <p className="text-gray-700 text-[15px]">
-    <strong>Mobile:</strong> <a href="tel:+916207921325" className="text-blue-600 underline">+916207921325</a>
-  </p>
-</div>
+
 
 </motion.div>
 
