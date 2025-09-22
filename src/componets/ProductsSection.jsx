@@ -29,6 +29,15 @@ const products = [
     link: "/",
   },
   {
+    name: "Cico-CYST Capsules",
+    category: "Urinary Care",
+    mrp: "₹255",
+    icon: <img src="/cyst2.png" className="w-[200px] h-[150px] text-green-600" />,
+    description:
+      "supplement for urinary tract infection, burning micturition, and diuretic support.",
+    link: "/",
+  },
+  {
     name: "Allopathic Products",
     category: "Pharmaceutical",
     mrp: "Coming Soon",
