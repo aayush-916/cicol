@@ -6,11 +6,13 @@ import App from "./App.jsx";
 import Nav from "./componets/Nav";
 import Whatsapp from "./componets/Whatsapp";
 import FooterSection from "./componets/FooterSection";
+import ScrollToTop from "./ScrollToTop"
 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter> 
+    <ScrollToTop/>
       <Nav/>
       <div style={{ marginTop: '70px' }}></div>
       <Whatsapp />
