@@ -38,6 +38,15 @@ const products = [
     link: "/",
   },
   {
+    name: "Cico-Artho Capsules",
+    category: "Joint and Bone care",
+    mrp: "₹355",
+    icon: <img src="/artho.jpg" className="w-[200px] h-[150px] text-green-600" />,
+    description:
+      "For Joint, Muscular Stiffness & Rheumatic Pains",
+    link: "/CicoArthoPage",
+  },
+  {
     name: "Allopathic Products",
     category: "Pharmaceutical",
     mrp: "Coming Soon",

@@ -5,6 +5,7 @@ import ProductsSection from './componets/ProductsSection';
 import CicoLivPage from './componets/products/CicoLiv';
 import Home from './Home';
 import CicoVitPage from './componets/products/CicoVit';
+import CicoArthoPage from './componets/products/CicoArtho';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Contact" exact Component={InquiryFormSection} />
       <Route path='/CicoLivPage' exact Component={CicoLivPage}/>
       <Route path='/CicoVitPage' exact Component={CicoVitPage}/>
+      <Route path='/CicoArthoPage' exact Component={CicoArthoPage}/>
     </Routes>
   );
 }
