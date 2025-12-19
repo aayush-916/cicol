@@ -6,6 +6,7 @@ import CicoLivPage from './componets/products/CicoLiv';
 import Home from './Home';
 import CicoVitPage from './componets/products/CicoVit';
 import CicoArthoPage from './componets/products/CicoArtho';
+import Admin from './Admin';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path='/CicoLivPage' exact Component={CicoLivPage}/>
       <Route path='/CicoVitPage' exact Component={CicoVitPage}/>
       <Route path='/CicoArthoPage' exact Component={CicoArthoPage}/>
+      <Route path='/Admin' exact Component={Admin}/>
     </Routes>
   );
 }
